@@ -1,5 +1,5 @@
 using System;
-class Right_Pyramid
+class Right_Pyramid1
 {
   static void Main() 
   {
