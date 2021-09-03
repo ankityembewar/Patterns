@@ -3,8 +3,9 @@ class Right_Pyramid
 {
   static void Main() 
   {
-      
-     for(int i=1;i<=7;i++)
+     Console.Write("Enter total layer : ");
+     int num_layer = Convert.ToInt32(Console.ReadLine());
+     for(int i=1;i<=num_layer;i++)
      {
          for(int j=1;j<=i;j++)
          {
