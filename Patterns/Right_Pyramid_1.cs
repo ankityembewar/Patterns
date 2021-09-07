@@ -1,16 +1,15 @@
 using System;
-class Right_Pyramid_3
+class Right_Pyramid_1
 {
   static void Main() 
   {
      Console.Write("Enter total layer : ");
      int num_layer = Convert.ToInt32(Console.ReadLine());
-     int i ,j;
-     for(i=1;i<=num_layer;i++)
+     for(int row=1;row<=num_layer;row++)
      {
-         for(j=1;j<=num_layer;j++)
+         for(int col=1;col<=num_layer;col++)
          {
-             if(j<i)
+             if(row<col)
              {
                  Console.Write(" ");
              }
@@ -23,3 +22,14 @@ class Right_Pyramid_3
      }
   }
 }
+
+/* Output:
+Enter total layer : 5
+
+*    
+**   
+***  
+**** 
+*****
+
+*/
