@@ -50,3 +50,27 @@ class box_pattern
         } 
     }
 }
+
+//Output
+/*
+Enter row or Columns {odd number}: 11
+
+Enter symbol for outer border: *
+
+Enter symbol for inner border: -
+
+Enter symbol for center: $
+
+* * * * * * * * * * * 
+* - - - - - - - - - * 
+* - - - - - - - - - * 
+* - - - - - - - - - * 
+* - - - - - - - - - * 
+* - - - - $ - - - - * 
+* - - - - - - - - - * 
+* - - - - - - - - - * 
+* - - - - - - - - - * 
+* - - - - - - - - - * 
+* * * * * * * * * * * 
+
+*/
