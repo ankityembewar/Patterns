@@ -15,3 +15,15 @@ class Right_Pyramid_2
      }
   }
 }
+
+/* Output :
+
+Enter total layer : 5
+
+*****
+****
+***
+**
+*
+
+*/
